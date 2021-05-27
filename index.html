@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Efecto 1 calle</title>
+
+  </head>
+  <body>
+    <section class="scene">
+      <div class="sun"></div>
+      <div class="bg"></div>
+        <img src="police_car.gif" class="car1">
+        <img src="police_car.gif" class="car2">
+    </section>
+<script>
+    const sun = document.querySelector('.sun');
+    const body = document.querySelector('body');
+    /*hacemos el sol clickleable para que cuando se presione se vuelva oscura la escena*/
+    sun.onclick = function(){
+      body.classList.toggle('dark');
+    }
+
+</script>
+<div class="links">
+  <a href='https://www.freepik.com/vectors/car'>Car vector created by user14579558 - www.freepik.com</a>
+  <a href='https://www.freepik.com/vectors/car'>Car vector created by pch.vector - www.freepik.com</a>
+  <a href='https://www.freepik.com/vectors/people'>People vector created by pch.vector - www.freepik.com</a>
+  <a href='https://www.freepik.com/vectors/car'>Car vector created by pch.vector - www.freepik.com</a>
+</div>
+  </body>
+</html>
